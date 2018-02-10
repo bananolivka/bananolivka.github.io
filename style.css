@@ -1,0 +1,215 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+
+* {
+ font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+
+
+    =====================
+    Основной заголовок
+    =====================
+*/
+
+header, footer {
+background: url(images/logo.png) no-repeat;
+background-size: 100% 130px;
+height: 130px;
+background-color: #ccc;
+}
+
+.menu ul ul {
+display: none;
+position: absolute;
+}
+
+.menu ul ul {
+display: none;
+position: absolute;
+}
+
+.menu li:hover ul {
+display: block;
+}
+
+.menu li:hover li {
+display: block;
+}
+
+.side {
+
+}
+
+.menu ul li {
+display: inline-block;
+}
+
+.menu ul {
+position: relative;
+}
+
+
+nav {
+	display:block;
+    font-size: 14px;
+    margin:1px 500px;
+	text-align:center;
+	background-color:#ccc;
+	text-transform: uppercase;
+}
+
+.input {
+background-color:#ccc;
+margin:0;
+}
+
+.input li {
+padding:5px;
+margin:0;
+border:1px solid white;
+}
+
+li {
+margin:10px;
+}
+ 
+a {
+color:black;
+} 
+
+/*
+    =====================
+    Сетка
+    =====================
+*/
+
+h3 {
+ text-transform: uppercase;
+  font-weight: 700;
+}
+
+.row {
+margin: 30px 50px;
+}
+
+.info,.col-1-3 {
+text-align:center;
+}
+
+.info h3 {
+font-size: 24px;
+padding-top:20px;
+
+}
+
+.col-1-3 {
+display: inline-block;
+width:30%;
+padding-right:5%;
+}
+
+.col-1-3:last-child {
+padding-right:0;
+}
+
+.img {
+list-style-type: none;
+margin: 0;
+padding:0;
+height: 300px;
+weight: 300px;
+position:relative;
+margin-bottom: 20px;
+box-shadow: 0 0 10px;
+border-radius:15px;
+}
+
+img {
+border-radius:10px;
+border: solid 3px #ccc;
+height:100%;
+width:100%;
+}
+
+.descr {
+position: absolute;
+top: 0;
+left: 0;
+height:50%;
+width:100%;
+background-color: rgba(0,0,0,.5);
+text-align: center;
+transform: scale(0);
+color: white;
+display: none;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+opacity:0;
+padding-top:150px;
+overflow: hidden;
+border-radius:10px;
+border: solid 3px #ccc;
+}
+
+a:hover .descr {
+display:block;
+opacity:1;
+transform: scale(1);
+}
+
+
+   
